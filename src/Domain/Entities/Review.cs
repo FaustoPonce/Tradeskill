@@ -15,6 +15,6 @@ namespace Domain.Entities
         public int rating { get; set; }
         public string Comment { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.Now;
-        public Order order { get; set; }
+        public Order Order { get; set; }
     }
 }

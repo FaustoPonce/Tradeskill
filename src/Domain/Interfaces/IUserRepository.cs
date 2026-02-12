@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Domain.Entities;
 
-namespace Domain.Entities
+namespace Domain.Interfaces
 {
-    public class Client : User
+    public interface IUserRepository : IRepositoryBase<User>
     {
-        public string PhoneNumber { get; set; }
     }
 }
