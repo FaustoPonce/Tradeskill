@@ -8,5 +8,9 @@ namespace Application.Models.Request
 {
     public class CreationUserDto
     {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
     }
 }

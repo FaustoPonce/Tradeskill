@@ -8,5 +8,7 @@ namespace Application.Models.Request
 {
     public class CreationSkillDto
     {
+        public string Name { get; set; }
+        
     }
 }

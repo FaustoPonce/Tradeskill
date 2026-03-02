@@ -8,5 +8,8 @@ namespace Application.Models.Request
 {
     public class CreationReviewDto
     {
+        public int OrderId { get; set; }
+        public int rating { get; set; }
+        public string Comment { get; set; }
     }
 }

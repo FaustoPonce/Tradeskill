@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,9 @@ namespace Application.Models.Request
 {
     public class CreationOrderDto
     {
+        public int ClientId { get; set; }
+        public int ServiceId { get; set; }
+        public PaymentMethod PaymentMethod { get; set; }
+
     }
 }
